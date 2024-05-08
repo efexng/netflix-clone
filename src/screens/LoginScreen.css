@@ -1,0 +1,110 @@
+.loginscreen {
+    position: relative;
+    height: 100%;
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/4d7bb476-6d8b-4c49-a8c3-7739fddd135c/3f9b1f16-9506-4c24-b84f-22f2371dc694/GB-en-20240429-popsignuptwoweeks-perspective_alpha_website_large.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.loginscreen_gradient {
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.loginscreen_logo {
+    position: fixed;
+    left: 0;
+    padding-left: 20px;
+    object-fit: contain;
+    width: 150px;
+}
+
+.loginscreen_button {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background: rgb(229,9,20);
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+.loginscreen_body {
+    position: absolute;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    left: 0;
+    right: 0;
+}
+
+
+.loginscreen_body > h1 {
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+
+.loginscreen_body > h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.loginscreen_body > h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.loginscreen_inputEmail {
+    padding: 10px;
+    outline: 0;
+    height: 30px;
+    width: 50%;
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    border: 1px solid gray; 
+    transition: border-color 0.3s; 
+    border-radius: 5px;
+    color: white; 
+    font-size: 14px; 
+    font-weight: 800; 
+    margin-right: 10px;
+}
+
+.loginscreen_inputEmail::placeholder {
+    font-size: 14px; 
+    font-weight: 800; 
+}
+
+.loginscreen_inputEmail:focus {
+    border-color: #fff; 
+}
+
+.loginscreen_inputEmail:focus::placeholder {
+    transform: translateY(-12px);
+    transition: transform 0.3s ease-in-out;
+} 
+
+.loginscreen_input {
+    margin: 20px;
+}
+
+.loginscreen_inputButton {
+    color: #fff;
+    background: rgb(229,9,20);
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
